@@ -24,6 +24,7 @@ main li {
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
   overflow: hidden; /* border-radius adapt on img */
+  width: 100%;
 }
 
 .item-content {
