@@ -1,9 +1,19 @@
 header {
   position: static; /* overwrite absolute position from shared.css */
 }
+header a {
+  color: rgb(139, 209, 209);
+}
+
+header nav a:hover {
+  background-color: rgb(139, 209, 209);
+  color: rgb(59, 59, 59);
+}
+
 #page-logo a {
   color: rgb(139, 209, 209);
 }
+
 body {
   background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
   color: rgb(68, 68, 68);
@@ -41,6 +51,9 @@ main li {
   justify-content: space-between;
 }
 
+.item-content h2 {
+  margin-top: 0;
+}
 .actions {
   text-align: right;
 }
